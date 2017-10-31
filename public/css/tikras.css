@@ -1,0 +1,18 @@
+#main {
+    background: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-139134.jpg')
+     0% 0%/cover
+}
+
+.fill-viewport {
+    min-height: 100vh
+}
+
+.text-white-70 {
+    color: rgba(255,255,255,0.7)
+}
+
+.text-black-40 {
+    color: rgba(0,0,0,0.4)
+}
+
+
