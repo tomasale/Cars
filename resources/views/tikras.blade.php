@@ -34,7 +34,7 @@
             <a class="nav-link" href="#">Login</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="http://cars.dev/uploads">Link</a>
         </li>
     </ul>
 
@@ -58,16 +58,21 @@
                  </div>
 
                  <div class = "col">
-                     <h6 class = "text-uppercase text-black-40">
+                     <h5 class = "text-uppercase text-black-40">
                          Cars Forum
-                     </h6>
+                     </h5>
                      <h2>Register Now for Free</h2>
                      <p>Enjoy the content and participate. Available on ALL devices.</p>
+                     <a class="btn btn-dark" href="#" role="button">Learn More</a>
                  </div>
              </div>
          </div>
      </section>
 
+    <!-- <video width="400" controls>
+        <source src="http://cars.dev/uploads/testvideo.mp4" type="video/mp4">
+    </video> -->
+    
     <section id = "gallery">
         <div class="container-fluid pb-5">
             <div class="col-xs-6 col-md-4 p-1"><img src="http://cars.dev/uploads/L_miura.jpg" class="img-fluid"></div>
