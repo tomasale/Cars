@@ -28,13 +28,13 @@
     <!-- Navigation -->
     <ul class="nav justify-content-center">
         <li class="nav-item">
-            <a class="nav-link" href="#">Forum</a>
+            <a class="nav-link" href="{{ url('blog') }}">Blog</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">Login</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{{ url('image') }}">Image</a>
+            <a class="nav-link" href="{{ url('image') }}">Gallery</a>
         </li>
     </ul>
 
