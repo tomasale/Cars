@@ -11,6 +11,8 @@
 |
 */
 
+Route::get('image', 'ImageController@index');
+
 Route::group([
   'prefix' => config('backpack.base.route_prefix', 'admin'),
   'middleware' => ['admin'],

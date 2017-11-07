@@ -34,7 +34,7 @@
             <a class="nav-link" href="#">Login</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="http://cars.dev/uploads">Link</a>
+            <a class="nav-link" href="{{ url('image') }}">Image</a>
         </li>
     </ul>
 
