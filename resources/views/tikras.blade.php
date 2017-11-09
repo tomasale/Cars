@@ -31,7 +31,7 @@
             <a class="nav-link" href="{{ url('blog') }}">Blog</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Login</a>
+            <a class="nav-link" href="{{ url('#') }}">Login</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="{{ url('image') }}">Gallery</a>
