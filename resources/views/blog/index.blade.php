@@ -43,9 +43,12 @@
 
     </div>
 
-    <button class = "btn btn-primary" onclick = "history.go(-1)">
-          « Back
-    </button>
+    <br>
+    <div class="pull-left">
+        <a class="btn btn-primary" href="{{ url('/') }}">
+            Back
+        </a>
+    </div>
 
 </body>
 

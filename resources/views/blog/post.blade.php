@@ -8,21 +8,23 @@
 </head>
 
 <body>
-    <div class = "container">
 
-        <h1>
-          {{ $post->title }}
-        </h1>
+  <div class = "container">
 
-        <h5>
-          {{ $post->published_at->diffForHumans() }}
-        </h5>
+    <h1>
+      {{ $post->title }}
+    </h1>
 
-        <img class="img-fluid" src="http://cars.dev/uploads/L_miura.jpg">
+    <h5>
+      {{ $post->published_at->diffForHumans() }}
+    </h5>
 
-        <hr>
-            {!! nl2br(e($post->content)) !!}
-        <hr>
+      <!-- sugalvot kaip i posta idet nuotrauka pagal ID-->
+      <img class="img-fluid" src="http://cars.dev/uploads/L_miura.jpg">
+
+    <hr>
+      {!! nl2br(e($post->content)) !!}
+    <hr>
 
         <!-- <form>
           <div class="form-group">
@@ -31,11 +33,16 @@
           </div>
         </form> -->
 
-        <button class = "btn btn-primary" onclick = "history.go(-1)">
-          « Back
-        </button>
-
+    <br>
+    <div class="pull-left">
+        <a class="btn btn-primary" href="{{ url('/blog') }}">
+            Back
+        </a>
     </div>
+    <br>
+
+  </div>
+    
 </body>
 
 </html>

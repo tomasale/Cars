@@ -26,17 +26,32 @@
   <body>
 
     <!-- Navigation -->
+    <section id = "navi" class = "bg-dark">
     <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link" href="{{ url('blog') }}">Blog</a>
+
+        <li class="nav-item" >
+            <a class="btn btn-secondary" class="nav-link"
+             href="{{ url('blog') }}">
+              Blog</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{{ url('#') }}">Login</a>
+            <a class="btn btn-secondary" class="nav-link"
+             href="{{ url('login') }}"> 
+              Login</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{{ url('image') }}">Gallery</a>
+            <a class="btn btn-secondary" class="nav-link"
+             href="{{ url('image') }}">
+              Gallery</a>
         </li>
+        <li class="nav-item">
+            <a class="btn btn-secondary" class="nav-link"
+             href="{{ url('upload') }}">
+              List</a>
+        </li>
+
     </ul>
+    </section>
 
      <section id = "main">
         <div class = "container">
@@ -76,11 +91,11 @@
     <section id = "gallery">
         <div class="container-fluid pb-5">
             <div class="col-xs-6 col-md-4 p-1"><img src="http://cars.dev/uploads/L_miura.jpg" class="img-fluid"></div>
+            <div class="col-xs-6 col-md-4 p-1"><img src="http://cars.dev/uploads/P_firebird.jpg" class="img-fluid"></div>
+            <div class="col-xs-6 col-md-4 p-1"><img src="http://cars.dev/uploads/C_vette.jpg" class="img-fluid"></div>   
             <div class="col-xs-6 col-md-4 p-1"><img src="http://cars.dev/uploads/L_miura.jpg" class="img-fluid"></div>
-            <div class="col-xs-6 col-md-4 p-1"><img src="http://cars.dev/uploads/L_miura.jpg" class="img-fluid"></div>
-            <div class="col-xs-6 col-md-4 p-1"><img src="http://cars.dev/uploads/L_miura.jpg" class="img-fluid"></div>
-            <div class="col-xs-6 col-md-4 p-1"><img src="http://cars.dev/uploads/L_miura.jpg" class="img-fluid"></div>
-            <div class="col-xs-6 col-md-4 p-1"><img src="http://cars.dev/uploads/L_miura.jpg" class="img-fluid"></div>
+            <div class="col-xs-6 col-md-4 p-1"><img src="http://cars.dev/uploads/P_firebird.jpg" class="img-fluid"></div>
+            <div class="col-xs-6 col-md-4 p-1"><img src="http://cars.dev/uploads/C_vette.jpg" class="img-fluid"></div>
         </div>
     </section>
 

@@ -34,27 +34,30 @@
 
 <div id="demo" class="carousel slide" data-ride="carousel">
 
-<!-- <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-</ul> -->
-
     <div class="carousel-inner">
 
         <div class="carousel-item active col-xs-6">
             <img src="http://cars.dev/uploads/L_miura.jpg" class="img-fluid">
+
             <div class="carousel-caption">
                 <h1>Lamborghini Miura</h1>
             </div> 
         </div>
 
         <div class="carousel-item col-xs-6">
-            <img src="http://cars.dev/uploads/L_miura.jpg" class="img-fluid">
+            <img src="http://cars.dev/uploads/P_firebird.jpg" class="img-fluid">
+
+            <div class="carousel-caption">
+                <h1>Pontiac Firebird</h1>
+            </div> 
         </div>
 
         <div class="carousel-item col-xs-6">
-            <img src="http://cars.dev/uploads/L_miura.jpg" class="img-fluid">
+            <img src="http://cars.dev/uploads/C_vette.jpg" class="img-fluid">
+
+            <div class="carousel-caption">
+                <h1>Chevrolet Corvette</h1>
+            </div> 
         </div>
 
     </div>
@@ -66,23 +69,6 @@
     <a class="carousel-control-next" href="#demo" data-slide="next">
         <span class="carousel-control-next-icon"></span>
     </a>
-
-</div>
-
-    <!-- <div class="container">
-
-    <section id = "gallery">
-            <div class="container-fluid pb-5">
-                <div class="col-xs-6 col-md-4 p-1"><img src="http://cars.dev/uploads/L_miura.jpg" class="img-fluid"></div>
-                <div class="col-xs-6 col-md-4 p-1"><img src="http://cars.dev/uploads/L_miura.jpg" class="img-fluid"></div>
-                <div class="col-xs-6 col-md-4 p-1"><img src="http://cars.dev/uploads/L_miura.jpg" class="img-fluid"></div>
-                <div class="col-xs-6 col-md-4 p-1"><img src="http://cars.dev/uploads/L_miura.jpg" class="img-fluid"></div>
-                <div class="col-xs-6 col-md-4 p-1"><img src="http://cars.dev/uploads/L_miura.jpg" class="img-fluid"></div>
-                <div class="col-xs-6 col-md-4 p-1"><img src="http://cars.dev/uploads/L_miura.jpg" class="img-fluid"></div>
-            </div>
-    </section>
-
-    </div> -->
 
 </div>
 
